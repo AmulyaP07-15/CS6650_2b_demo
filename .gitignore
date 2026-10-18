@@ -1,4 +1,13 @@
 **.tfvars
 **.tfstate
 **.tfstate.*
-**/.terraform/
+**/.terraform/# terraform working files and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+# secrets
+.env
+# go binaries
+server
