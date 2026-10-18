@@ -6,8 +6,8 @@
 *.tfstate
 *.tfstate.*
 *.tfvars
-.terraform.lock.hcl
 # secrets
 .env
 # go binaries
 server
+.DS_Store
